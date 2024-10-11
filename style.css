@@ -32,14 +32,19 @@ body {
     cursor: pointer;
     border-top-right-radius:30px;
     border-bottom-left-radius: 30px;
-    background-color: #007BFF;
     color: white;
     transition:0.2s;
     font-family:'Times New Roman', Times, serif;
     
 }
 
-.buttons button:hover {
+.buttons #start:hover{
+    background-color: #000000;
+}
+.buttons #stop:hover{
+    background-color: #000000;
+}
+.buttons #reset:hover{
     background-color: #000000;
 }
 
@@ -49,5 +54,9 @@ body {
 }
 .buttons #stop{
     background-color: rgb(212, 21, 21);
+
+}
+.buttons #reset{
+    background-color: rgb(21, 97, 212);
 
 }
